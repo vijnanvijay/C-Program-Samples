@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : s1.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <io.h>
+
+
+int main(void) {
+	printf("Sum of 2 Numbers/n");
+	int a,b,sum;
+	printf("Enter 2 numbers:");
+	scanf("%d%d",&a,&b);
+	sum=a+b;
+	printf("Result is: %d",sum);
+	return EXIT_SUCCESS;
+}

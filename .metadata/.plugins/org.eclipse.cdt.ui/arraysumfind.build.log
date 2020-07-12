@@ -1,0 +1,7 @@
+20:09:24 **** Incremental Build of configuration Debug for project arraysumfind ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arraysumfind.o" "..\\src\\arraysumfind.c" 
+gcc -o arraysumfind.exe "src\\arraysumfind.o" 
+
+20:09:24 Build Finished. 0 errors, 0 warnings. (took 517ms)
+

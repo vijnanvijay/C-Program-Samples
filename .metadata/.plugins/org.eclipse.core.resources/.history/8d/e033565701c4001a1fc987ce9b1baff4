@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : mtable.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To print multiplication table for the given number*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int mul,num,res,i;
+	setbuf(stdout,NULL);
+	printf("To print Multiplication Table");
+	printf("\n----------------------------\n");
+	printf("Enter multiplication table of : ");
+	scanf("%d",&mul);
+	printf("Enter %d 's multiplication upto :",mul);
+	scanf("%d",&num);
+	for (i=1;i<=num;i++){
+		res = i*mul;
+		printf("%d X %d = %d\n",i,mul,res);
+	}
+
+
+
+	return EXIT_SUCCESS;
+}

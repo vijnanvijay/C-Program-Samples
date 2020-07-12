@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : passed.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To check whether a student has passed or failed in a subject
+   after he or she enters their mark
+  (pass mark for a subject is 50 out of 100).*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float mark;
+	setbuf(stdout,NULL);
+	printf("Enter the marks obtained: ");
+	scanf("%f",&mark);
+
+	if (mark < 50){
+		printf("Student has Failed !");
+	}else {
+		if ((mark >= 50) & (mark <= 100)){
+			printf("Student has Passed !");
+		}else{
+			printf("Invalid Input");
+		}
+	}
+
+
+
+
+	return EXIT_SUCCESS;
+}

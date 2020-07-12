@@ -1,0 +1,86 @@
+20:14:08 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:15:03 **** Incremental Build of configuration Debug for project passed ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\passed.o" "..\\src\\passed.c" 
+gcc -o passed.exe "src\\passed.o" 
+20:15:36 **** Incremental Build of configuration Debug for project sample ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample.o" "..\\src\\sample.c" 
+gcc -o sample.exe "src\\sample.o" 
+20:16:15 **** Incremental Build of configuration Debug for project Interest ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interest.o" "..\\src\\Interest.c" 
+gcc -o Interest.exe "src\\Interest.o" 
+20:16:50 **** Incremental Build of configuration Debug for project pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern.o" "..\\src\\pattern.c" 
+gcc -o pattern.exe "src\\pattern.o" 
+20:17:25 **** Incremental Build of configuration Debug for project swap ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\swap.o" "..\\src\\swap.c" 
+gcc -o swap.exe "src\\swap.o" 
+20:17:39 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:18:23 **** Incremental Build of configuration Debug for project sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sum.o" "..\\src\\sum.c" 
+gcc -o sum.exe "src\\sum.o" 
+20:18:55 **** Incremental Build of configuration Debug for project average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\average.o" "..\\src\\average.c" 
+gcc -o average.exe "src\\average.o" 
+20:19:32 **** Incremental Build of configuration Debug for project weekday ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\weekday.o" "..\\src\\weekday.c" 
+gcc -o weekday.exe "src\\weekday.o" 
+20:20:12 **** Incremental Build of configuration Debug for project mtable ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mtable.o" "..\\src\\mtable.c" 
+gcc -o mtable.exe "src\\mtable.o" 
+20:20:55 **** Incremental Build of configuration Debug for project increment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\increment.o" "..\\src\\increment.c" 
+gcc -o increment.exe "src\\increment.o" 
+20:21:22 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:26:55 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddeven.o" "..\\src\\oddeven.c" 
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:38:21 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddeven.o" "..\\src\\oddeven.c" 
+..\src\oddeven.c: In function 'main':
+..\src\oddeven.c:19:2: warning: implicit declaration of function 'print'
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:38:32 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddeven.o" "..\\src\\oddeven.c" 
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:38:47 **** Incremental Build of configuration Debug for project oddeven ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddeven.o" "..\\src\\oddeven.c" 
+gcc -o oddeven.exe "src\\oddeven.o" 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file oddeven.exe: Permission denied
+collect2: ld returned 1 exit status
+20:40:29 **** Rebuild of configuration Debug for project evenodd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\evenodd.o" "..\\src\\evenodd.c" 
+gcc -o evenodd.exe "src\\evenodd.o" 
+Info: Nothing to build for evenodd

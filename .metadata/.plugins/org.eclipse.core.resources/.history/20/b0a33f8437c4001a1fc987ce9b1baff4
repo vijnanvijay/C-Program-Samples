@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : arrayswap.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To input 2 arrays and swap it*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int asize,i,array1[100], array2[100];
+	setbuf(stdout,NULL);
+	printf("To Swap 2 arrays");
+	printf("\n----------------\n");
+	printf("Enter the size of Arrays: ");
+	scanf("%d",&asize);
+//	input 1st array values
+	printf("Enter values for 1st Array one by one:\n");
+	for(i=0;i<asize;i++){
+		printf("\t%d. ",i+1);
+		scanf("%d",&array1[i]);
+	}
+//	input 2nd array values
+	printf("Enter values for 2nd Array one by one:\n");
+	for(i=0;i<asize;i++){
+		printf("\t%d. ",i+1);
+		scanf("%d",&array2[i]);
+	}
+// Array before swapping
+	for(i=0;i<=asize;i++){
+		printf("1st Array = %d,",array1[i]);
+		printf("2nd Array = %d,",array2[i]);
+	}
+
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : average.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To find average of 3 numbers */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a,b,c ;
+	float d;
+	setbuf(stdout,NULL);
+	printf("To find average of 3 numbers");
+	printf("\n----------------------------\n");
+	printf("Enter 1st Number : ");
+	scanf("%d",a);
+	printf("Enter 2nd Number : ");
+	scanf("%d",b);
+	printf("Enter 3rd Number : ");
+	scanf("%d",c);
+	d = (a + b + c)/3;
+	printf("Average of 3 Numbers : ");
+
+
+
+	return EXIT_SUCCESS;
+}

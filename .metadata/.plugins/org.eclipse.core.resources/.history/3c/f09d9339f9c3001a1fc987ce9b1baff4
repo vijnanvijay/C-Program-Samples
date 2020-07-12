@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : weekday.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To display Weekday according to input */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int weekd;
+	setbuf(stdout,NULL);
+	printf("To display weekday according to selected number");
+	printf("\n-----------------------------------------------\n")
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : sample.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a;
+	setbuf(stdout,NULL);
+	printf("!!!Hello World!!!");/* prints !!!Hello World!!! */
+	printf("/n");
+	printf("Enter a Number: ");
+	scanf("%d",&a);
+	printf("a is asigned to: %d",a);
+	return EXIT_SUCCESS;
+}

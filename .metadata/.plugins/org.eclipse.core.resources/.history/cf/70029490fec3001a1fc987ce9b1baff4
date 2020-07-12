@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : increment.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* The concept of pre-increment & post-increment*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a = 10;
+	setbuf(stdout, NULL);
+	printf("Variable 'a' is assigned to : %d",a);
+	a++;
+	printf("Post Increment a++ , result is %d",a);
+	++a;
+	printf("Pre Increment ++a, result is %d",a);
+
+	return EXIT_SUCCESS;
+}

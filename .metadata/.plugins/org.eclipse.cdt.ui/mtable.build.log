@@ -1,0 +1,7 @@
+20:20:12 **** Incremental Build of configuration Debug for project mtable ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mtable.o" "..\\src\\mtable.c" 
+gcc -o mtable.exe "src\\mtable.o" 
+
+20:20:13 Build Finished. 0 errors, 0 warnings. (took 1s.116ms)
+

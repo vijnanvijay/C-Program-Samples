@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : arraysumfind.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To create an array & sum the values & find a value*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int limit, a[100],i,result;
+	setbuf(stdout,NULL);
+	printf("To create an Array / Sum the values / Find a value");
+	printf("\n--------------------------------------------------\n");
+
+	printf("Enter the array limit : ");
+	scanf("%d",&limit);
+
+	printf("Enter values one by one:\n");
+	for(i=1;i<=limit;i++){
+		printf("\t%d. ",i);
+		scanf("%d",&a[i]);
+	}
+	result=0;
+	for(i=1;i<=limit;i++){
+		result=result+a[i];
+	}
+	printf("\nSum of above array: %d",result);
+
+	return EXIT_SUCCESS;
+}

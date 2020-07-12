@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : arraysort.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int asize,i,array1[100];
+	setbuf(stdout,NULL);
+	printf("To sort the array in descending order");
+	printf("\n-------------------------------------\n");
+	printf("Enter the size of Arrays: ");
+	scanf("%d",&asize);
+//	input array values
+	printf("Enter values for Array one by one:\n");
+	for(i=0;i<asize;i++){
+		printf("\t%d. ",i+1);
+		scanf("%d",&array1[i]);
+	}
+	a = array1[0];
+
+
+	return EXIT_SUCCESS;
+}

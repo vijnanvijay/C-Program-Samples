@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : grade.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To show the grade obtained by a student after
+   he/she enters their total mark percentage.*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int totalmark;
+	char *gra;
+	setbuf(stdout,NULL);
+	printf("To display grade");
+	printf("\n----------------\n");
+	printf("Enter the percentage of marks obtained: ");
+	scanf("%d",&totalmark);
+	if (totalmark < 50) {
+		gra = "F";
+	} else if ((totalmark >= 50) & (totalmark <= 59)){
+		gra = "E";
+	} else if ((totalmark >= 60) & (totalmark <= 69)){
+		gra = "D";
+	} else if ((totalmark >= 70) & (totalmark <= 79)){
+		gra = "C";
+	} else if ((totalmark >= 80) & (totalmark <= 89)){
+		gra = "B";
+	} else if ((totalmark >= 90) & (totalmark <= 100)){
+		gra = "A";
+	}
+
+	printf(%c,gra);
+
+//	printf("Grade obtained: %c",gra);
+
+	return EXIT_SUCCESS;
+}

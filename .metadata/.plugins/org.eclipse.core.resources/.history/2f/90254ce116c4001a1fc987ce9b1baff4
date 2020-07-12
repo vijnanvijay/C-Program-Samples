@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : pattern.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To print pattern using numbers */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num,i,count;
+	setbuf(stdout,NULL);
+	printf("Enter the required rows :");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++){
+		for(count=1;count<=i;count++){
+			printf("%d",count);
+		}
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

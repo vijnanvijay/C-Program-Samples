@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Interest.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* To calculate Simple Interest*/
+int main(void) {
+	int p;
+	float r,n,si;
+	setbuf(stdout,NULL);
+	printf("To Calculate Simple Interst");
+	printf("\n---------------------------");
+	printf("Enter Principal Amount: ");
+	scanf("%d",&p);
+	printf("Enter Interest Rate   : ");
+	scanf("%f",&r);
+	printf("Enter Number of years : ");
+	scanf("%f",&n);
+
+	si=p*n*(r/100);
+	printf("\nSimple Interest       : %.2f",si);
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : prime.c
+ Author      : v
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+/* To find prime numbers for a given limit
+   Prime numbers are numbers which are divisible by 1 and itself */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num,i,j,count;
+	setbuf(stdout,NULL);
+	printf("Enter the limit for the prime numbers: ");
+	scanf("%d",&num);
+
+
+
+	return EXIT_SUCCESS;
+}
