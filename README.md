@@ -22,3 +22,8 @@ List of programs:
 15. Sum of two numbers
 16. Swap two numbers
 17. Display weekday
+18. String Array
+19. String is Palindrome or not 
+20. Sum of 2 (3x3) two dimensional arrays
+21. Display array using functions
+22. Functions (with/without argument/return value)
