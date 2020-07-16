@@ -1,6 +1,9 @@
 # C-Program-Samples
 Sample programs created using 'C' language
 
+Integrated Development Environment: Eclipse IDE
+Version: 2020-06 (4.16.0)
+
 List of programs:
  1. Count the even numbers in an array
  2. Sort an array in descending order
